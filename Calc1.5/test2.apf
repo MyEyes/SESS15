@@ -1,0 +1,10 @@
+PROJECTNAME, "test2"
+PROJECTTYPE, "SWT"
+WORKPATH, "C:\\Users\\Ole\\Downloads\\CalcJ1.0\\CalcJ 1.0"
+APPLICATION, "hu.se.calcj.CalcJ"
+MAINWINDOW, "CalculatorWindow"
+CLASSPATH, "C:\\Users\\Ole\\Downloads\\CalcJ1.0\\CalcJ 1.0\\lib\\jface.jar", "C:\\Users\\Ole\\Downloads\\CalcJ1.0\\CalcJ 1.0\\lib\\equinox.common.jar", "C:\\Users\\Ole\\Downloads\\CalcJ1.0\\CalcJ 1.0\\lib\\commands.jar", "C:\\Users\\Ole\\Downloads\\CalcJ1.0\\CalcJ 1.0\\lib\\calcj.jar", "C:\\Users\\Ole\\Downloads\\CalcJ1.0\\CalcJ 1.0\\lib\\jface_source.jar", "C:\\Users\\Ole\\Downloads\\CalcJ1.0\\CalcJ 1.0\\lib\\swt.jar", "C:\\Users\\Ole\\Downloads\\CalcJ1.0\\CalcJ 1.0\\lib\\osgi.jar"
+COVERPATH
+COVER, FALSE
+OPEN, "URF-Datei.urf"
+ACTIVE, "URF-Datei.urf"
