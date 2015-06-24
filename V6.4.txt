@@ -1,0 +1,5 @@
+maximale Anzahl 
+3*2*4=24
+
+minimale Anzahl
+3+2+4=9
