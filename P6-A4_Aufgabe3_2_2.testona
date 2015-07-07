@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestonaObject id="c0">
+    <!--Created by TESTONA Light 4.1.3-->
+    <Tree id="c1" name="5.2_wagner.testona" root="c2">
+        <Composition id="c2" name="buchen" style="color:#000000; font-size:9px; background-color:#FFFFFF; font-family:Tahoma" x="822" y="32">
+            <Classification id="c20" name="Kunden Prüfung" x="349" y="86">
+                <Class id="c71" name="Kunde angemeldet" style="background-color:#FFFFFF00" x="168" y="138">
+                    <Classification id="c89" name="Privatkunde" style="background-color:#FFFFFF" x="18" y="190">
+                        <Class id="c101" name="Daten aktualisieren" style="background-color:#FFFFFF00" x="0" y="242"/>
+                    </Classification>
+                    <Classification id="c80" name="Firmenkunde" style="background-color:#FFFFFF" x="351" y="190">
+                        <Class id="c98" name="ja" style="background-color:#FFFFFF00" x="249" y="242">
+                            <Classification id="c95" name="Firmendaten anlegen" style="background-color:#FFFFFF" x="132" y="294">
+                                <Class id="c254" name="erfolgreich" style="background-color:#FFFFFF00; font-family:'Segoe UI'" x="133" y="346"/>
+                                <Class id="c257" name="nicht" style="background-color:#FFFFFF00; font-family:'Segoe UI'" x="220" y="346"/>
+                            </Classification>
+                            <Classification id="c92" name="Firmendaten abrufen" style="background-color:#FFFFFF" x="277" y="294">
+                                <Class id="c248" name="erfolgreich" style="background-color:#FFFFFF00; font-family:'Segoe UI'" x="278" y="346"/>
+                                <Class id="c251" name="nicht" style="background-color:#FFFFFF00; font-family:'Segoe UI'" x="365" y="346"/>
+                            </Classification>
+                        </Class>
+                        <Class id="c83" name="Daten aktualisieren" style="background-color:#FFFFFF00" x="423" y="242"/>
+                    </Classification>
+                </Class>
+                <Class id="c74" name="Kunde ist neu" style="background-color:#FFFFFF00" x="546" y="138">
+                    <Classification height="5" id="c86" name="Daten erfsassen" style="background-color:#FFFFFF" width="80" x="551" y="190">
+                        <Class id="c260" name="erfolgreich" style="background-color:#FFFFFF00; font-family:'Segoe UI'" x="556" y="252"/>
+                    </Classification>
+                </Class>
+            </Classification>
+            <Classification id="c17" name="Dokumente Kunde" x="672" y="86">
+                <Class id="c56" name="Anmeldebestätigung erstellen" style="background-color:#FFFFFF00" x="643" y="138"/>
+            </Classification>
+            <Classification id="c350" name="Dokumente Buchhaltung" style="font-family:'Segoe UI'" x="852" y="86">
+                <Class id="c353" name="Rechnung an Buchhaltung" style="background-color:#FFFFFF00" x="775" y="182"/>
+                <Class id="c356" name="Rechnung vorhanden" style="background-color:#FFFFFF00" x="945" y="183"/>
+            </Classification>
+            <Classification id="c14" name="Veranstaltung prüfen" x="1228" y="86">
+                <Class id="c104" name="Anmeldung erfolgreich" style="background-color:#FFFFFF00" x="1074" y="138"/>
+                <Class id="c38" name="Anmeldung fehlerhaft" style="background-color:#FFFFFF00" x="1380" y="138">
+                    <Classification id="c29" name="Veranstaltung ausgebucht" style="background-color:#FFFFFF" x="1119" y="190">
+                        <Class id="c44" name="Alternative anzeigen" style="background-color:#FFFFFF00" x="1146" y="235"/>
+                    </Classification>
+                    <Classification id="c107" name="falsche Veranstaltung" style="background-color:#FFFFFF" x="1294" y="190">
+                        <Class id="c267" name="Verwerfe&#13;&#10;Daten" style="background-color:#FFFFFF00; font-family:'Segoe UI'" x="1330" y="234"/>
+                    </Classification>
+                    <Classification id="c32" name="Veranstaltung fällt aus" style="background-color:#FFFFFF" x="1442" y="190">
+                        <Class id="c47" name="Alternative anzeigen.1" style="background-color:#FFFFFF00" x="1443" y="242"/>
+                    </Classification>
+                    <Classification id="c110" name="bereits angemeldet" style="background-color:#FFFFFF" x="1588" y="188">
+                        <Class id="c264" name="Verwerfe&#13;&#10;Daten" style="background-color:#FFFFFF00; font-family:'Segoe UI'" x="1622" y="242"/>
+                    </Classification>
+                </Class>
+            </Classification>
+        </Composition>
+    </Tree>
+    <TestGroup id="c3" name="">
+        <TestCase id="c113" name="Testcase 1">
+            <Marks true="c101 c353 c56 "/>
+        </TestCase>
+        <TestCase id="c117" name="Testcase 2">
+            <Marks true="c83 "/>
+        </TestCase>
+    </TestGroup>
+</TestonaObject>
